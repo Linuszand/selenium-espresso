@@ -1,0 +1,23 @@
+{
+  "name": "selenium-with-cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "testOnly": "cucumber-js tests/features --require tests/features/support --require tests/features/step-definitions --world-parameters \"{\\\"browserName\\\":\\\"chrome\\\"}\" --format json:tests/results/chrome.json",
+    "testReport": "node ./generateReport",
+    "openTestReport": "start tests/results/chrome.html",
+    "test": "cucumber-js tests/features --require tests/features/support --require tests/features/step-definitions --world-parameters \"{\\\"browserName\\\":\\\"chrome\\\"}\" --format json:tests/results/chrome.json && node ./generateReport && start tests/results/chrome.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^10.0.1",
+    "chai": "^4.3.10",
+    "chromedriver": "^119.0.1",
+    "cucumber-html-reporter": "^6.0.0",
+    "open": "^9.1.0",
+    "selenium-webdriver": "^4.15.0"
+  }
+}

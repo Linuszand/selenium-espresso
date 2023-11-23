@@ -1,0 +1,92 @@
+[
+  {
+    "description": "  As a Google search engine user\n  I want to be able to find things",
+    "elements": [
+      {
+        "description": "",
+        "id": "searching-with-google;searching-for-\"cats\"",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Searching for \"cats\"",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 669446400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "that I am at \"https://www.google.com/\"",
+            "match": {
+              "location": "tests\\features\\step-definitions\\search.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 428562900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I have approved of cookies",
+            "match": {
+              "location": "tests\\features\\step-definitions\\search.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45203099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I search for \"cats\"",
+            "match": {
+              "location": "tests\\features\\step-definitions\\search.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1890307799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should get at least 1000 hits",
+            "match": {
+              "location": "tests\\features\\step-definitions\\search.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30016699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 51895799
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "searching-with-google",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Searching with Google",
+    "tags": [],
+    "uri": "tests\\features\\search.feature"
+  }
+]
