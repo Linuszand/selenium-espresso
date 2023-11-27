@@ -9,9 +9,9 @@ async function textConvert(driver, element, text) {
 }
 
 async function clickElement(driver, element) {
-  let fullXpath = "//menu[@class='choices']//ul/li[text()='" + element + "']";
+  let xpath = "//menu[@class='choices']//ul/li[text()='" + element + "']";
   element = await driver.findElement(
-    By.xpath(fullXpath)
+    By.xpath(xpath)
   );
   await element.click();
 }
