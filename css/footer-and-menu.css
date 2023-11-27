@@ -1,0 +1,31 @@
+/*------------------------------------------------------------------------------------------
+  The footer and its menu
+------------------------------------------------------------------------------------------*/ 
+
+footer {
+  margin:0 auto;
+}
+
+menu {
+  margin-top:15px;
+  text-align:center;
+}
+
+menu ul {
+  display:inline-block;
+}
+
+menu ul li {
+  display:inline-block;
+  cursor: pointer;
+  color:#aaa;
+  margin:6px;
+  padding:6px 6px 4px;
+  background:#3c5f85;
+  border-radius:5px;
+}
+
+menu ul li:hover {
+  background:#9cc;
+  color:#000;
+}

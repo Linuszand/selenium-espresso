@@ -19,5 +19,8 @@
     "cucumber-html-reporter": "^6.0.0",
     "open": "^9.1.0",
     "selenium-webdriver": "^4.15.0"
+  },
+  "devDependencies": {
+    "cucumber": "^6.0.7"
   }
 }

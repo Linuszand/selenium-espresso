@@ -1,5 +1,149 @@
 [
   {
+    "description": "  As a gamer I want the game to work",
+    "elements": [
+      {
+        "description": "",
+        "id": "gameplay-functionality;win-the-game",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Win the game",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 739363299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "that I am at \"http://127.0.0.1:5500/index.html\"",
+            "match": {
+              "location": "tests\\features\\step-definitions\\search.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 166871398
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I win the game",
+            "match": {
+              "location": "tests\\features\\step-definitions\\gameplay.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 920798198
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should see the description text \"Yes! You feel alive and pumping. Full of caffeine! You feel like... like... Luke Skywalker!\"",
+            "match": {
+              "location": "tests\\features\\step-definitions\\gameplay.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15200900
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 34736099
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "gameplay-functionality;lose-the-game",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Lose the game",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 758826700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "that I am at \"http://127.0.0.1:5500/index.html\"",
+            "match": {
+              "location": "tests\\features\\step-definitions\\search.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 183213600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I wait enough times to die",
+            "match": {
+              "location": "tests\\features\\step-definitions\\gameplay.js:63"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 44753800,
+              "error_message": "NoSuchElementError: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//menu[@class='choices']//ul/li[text()='Wait']\"}\n  (Session info: chrome=119.0.6045.160)\n    at Object.throwDecodedError (C:\\Users\\linus\\Documents\\GitHub\\Selenium-espresso\\node_modules\\selenium-webdriver\\lib\\error.js:524:15)\n    at parseHttpResponse (C:\\Users\\linus\\Documents\\GitHub\\Selenium-espresso\\node_modules\\selenium-webdriver\\lib\\http.js:601:13)\n    at Executor.execute (C:\\Users\\linus\\Documents\\GitHub\\Selenium-espresso\\node_modules\\selenium-webdriver\\lib\\http.js:529:28)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async thenableWebDriverProxy.execute (C:\\Users\\linus\\Documents\\GitHub\\Selenium-espresso\\node_modules\\selenium-webdriver\\lib\\webdriver.js:745:17)\n    at async waitForDescription (C:\\Users\\linus\\Documents\\GitHub\\Selenium-espresso\\tests\\features\\step-definitions\\testFunctions.js:25:12)\n    at async CustomWorld.<anonymous> (C:\\Users\\linus\\Documents\\GitHub\\Selenium-espresso\\tests\\features\\step-definitions\\gameplay.js:65:3)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I should see the game over text \"You health has deteriorated too much - you feel almost dead.<br>Find a caffeine-detox clinic?\"",
+            "match": {
+              "location": "tests\\features\\step-definitions\\gameplay.js:68"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 31899500
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "gameplay-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Gameplay functionality",
+    "tags": [],
+    "uri": "tests\\features\\gameplay.feature"
+  },
+  {
     "description": "  As a Google search engine user\n  I want to be able to find things",
     "elements": [
       {
@@ -14,7 +158,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 669446400
+              "duration": 755608600
             }
           },
           {
@@ -27,7 +171,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 428562900
+              "duration": 710096099
             }
           },
           {
@@ -40,7 +184,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 45203099
+              "duration": 44992900
             }
           },
           {
@@ -53,7 +197,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1890307799
+              "duration": 3104897899
             }
           },
           {
@@ -66,7 +210,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 30016699
+              "duration": 29928299
             }
           },
           {
@@ -74,7 +218,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 51895799
+              "duration": 37714000
             }
           }
         ],
