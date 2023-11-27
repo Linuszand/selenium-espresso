@@ -2,7 +2,7 @@ Feature: Gameplay functionality
   As a gamer I want the game to work
 
   Background: Enter page
-    Given that I am at "http://127.0.0.1:5500/index.html"
+    Given that I am at "http://127.0.0.1:5501/index.html"
 
   Scenario: Win the game
     When I win the game
@@ -10,7 +10,7 @@ Feature: Gameplay functionality
 
   Scenario: Lose the game
     When I wait enough times to die
-    Then I should see the game over text "You health has deteriorated too much - you feel almost dead.<br>Find a caffeine-detox clinic?"
+    Then I should see the game over text "You health has deteriorated too much - you feel almost dead. Find a caffeine-detox clinic?"
 
 
 

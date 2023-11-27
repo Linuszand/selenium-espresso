@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "testOnly": "cucumber-js tests/features --require tests/features/support --require tests/features/step-definitions --world-parameters \"{\\\"browserName\\\":\\\"chrome\\\"}\" --format json:tests/results/chrome.json",
-    "testReport": "node ./generateReport",
-    "openTestReport": "start tests/results/chrome.html",
+    "test-only": "cucumber-js tests/features --require tests/features/support --require tests/features/step-definitions --world-parameters \"{\\\"browserName\\\":\\\"chrome\\\"}\" --format json:tests/results/chrome.json",
+    "test-report": "node ./generateReport",
+    "open-test-report": "start tests/results/chrome.html",
     "test": "cucumber-js tests/features --require tests/features/support --require tests/features/step-definitions --world-parameters \"{\\\"browserName\\\":\\\"chrome\\\"}\" --format json:tests/results/chrome.json && node ./generateReport && start tests/results/chrome.html"
   },
   "keywords": [],

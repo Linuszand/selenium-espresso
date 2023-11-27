@@ -1,7 +1,7 @@
 const { Given, When, Then } = require('@cucumber/cucumber');
 const { By, until } = require('selenium-webdriver');
 const { expect } = require('chai');
-const { waitForDescription, clickElement, textConvert } = require('./testFunctions');
+const { waitForDescription, clickElement, textConvert, clickWaitSeven } = require('./testFunctions');
 
 let url = 'http://127.0.0.1:5500/index.html';
 
@@ -61,8 +61,7 @@ Then("I should see the description text {string}", async function (text) {
 });
 
 When("I wait enough times to die", async function () {
-  await this.driver.get(url);
-  await waitForDescription(this.driver, "You health has deteriorated too much - you feel almost dead.<br>Find a caffeine-detox clinic?" )
+  await clickWaitSeven(this.driver);
 });
 
 Then("I should see the game over text {string}", async function (text) {
