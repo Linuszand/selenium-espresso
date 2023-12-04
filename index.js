@@ -5,7 +5,7 @@ const express = require('express');
 
 // ange samma port som live server har kört på
 // eller ändra baseUrl för cypress...
-const port = 5500;
+const port = 5501;
 
 const app = express();
 
