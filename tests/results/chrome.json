@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 3648832599
+              "duration": 3912006699
             }
           },
           {
@@ -23,11 +23,11 @@
             "line": 5,
             "name": "that I am at \"http://127.0.0.1:5501/index.html\"",
             "match": {
-              "location": "tests\\features\\step-definitions\\search.js:5"
+              "location": "tests\\features\\step-definitions\\gameplay.js:6"
             },
             "result": {
               "status": "passed",
-              "duration": 1192485698
+              "duration": 1223893699
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1860585299
+              "duration": 2130509099
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1024689999
+              "duration": 1031437499
             }
           },
           {
@@ -61,7 +61,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 43098500
+              "duration": 34525099
             }
           }
         ],
@@ -80,7 +80,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 3610810099
+              "duration": 3901918999
             }
           },
           {
@@ -89,11 +89,11 @@
             "line": 5,
             "name": "that I am at \"http://127.0.0.1:5501/index.html\"",
             "match": {
-              "location": "tests\\features\\step-definitions\\search.js:5"
+              "location": "tests\\features\\step-definitions\\gameplay.js:6"
             },
             "result": {
               "status": "passed",
-              "duration": 1192959098
+              "duration": 1198199699
             }
           },
           {
@@ -106,7 +106,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1138414300
+              "duration": 1167697098
             }
           },
           {
@@ -119,7 +119,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1025566700
+              "duration": 1031852498
             }
           },
           {
@@ -127,7 +127,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 58384499
+              "duration": 35496199
             }
           }
         ],
@@ -141,95 +141,5 @@
     "name": "Gameplay functionality",
     "tags": [],
     "uri": "tests\\features\\gameplay.feature"
-  },
-  {
-    "description": "  As a Google search engine user\n  I want to be able to find things",
-    "elements": [
-      {
-        "description": "",
-        "id": "searching-with-google;searching-for-\"cats\"",
-        "keyword": "Scenario",
-        "line": 5,
-        "name": "Searching for \"cats\"",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 3647258799
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 6,
-            "name": "that I am at \"https://www.google.com/\"",
-            "match": {
-              "location": "tests\\features\\step-definitions\\search.js:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1414724800
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "I have approved of cookies",
-            "match": {
-              "location": "tests\\features\\step-definitions\\search.js:9"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1041085499
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 8,
-            "name": "I search for \"cats\"",
-            "match": {
-              "location": "tests\\features\\step-definitions\\search.js:20"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1326457699
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 9,
-            "name": "I should get at least 1000 hits",
-            "match": {
-              "location": "tests\\features\\step-definitions\\search.js:30"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1029628000
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 70632600
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      }
-    ],
-    "id": "searching-with-google",
-    "line": 1,
-    "keyword": "Feature",
-    "name": "Searching with Google",
-    "tags": [],
-    "uri": "tests\\features\\search.feature"
   }
 ]
