@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 809125400
+              "duration": 3648832599
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1171795699
+              "duration": 1192485698
             }
           },
           {
@@ -36,11 +36,11 @@
             "line": 8,
             "name": "I win the game",
             "match": {
-              "location": "tests\\features\\step-definitions\\gameplay.js:12"
+              "location": "tests\\features\\step-definitions\\gameplay.js:10"
             },
             "result": {
               "status": "passed",
-              "duration": 1925930698
+              "duration": 1860585299
             }
           },
           {
@@ -49,11 +49,11 @@
             "line": 9,
             "name": "I should see the description text \"Yes! You feel alive and pumping. Full of caffeine! You feel like... like... Luke Skywalker!\"",
             "match": {
-              "location": "tests\\features\\step-definitions\\gameplay.js:59"
+              "location": "tests\\features\\step-definitions\\gameplay.js:57"
             },
             "result": {
               "status": "passed",
-              "duration": 1020338500
+              "duration": 1024689999
             }
           },
           {
@@ -61,7 +61,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 45666799
+              "duration": 43098500
             }
           }
         ],
@@ -80,7 +80,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 712979299
+              "duration": 3610810099
             }
           },
           {
@@ -93,7 +93,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1173053300
+              "duration": 1192959098
             }
           },
           {
@@ -102,11 +102,11 @@
             "line": 12,
             "name": "I wait enough times to die",
             "match": {
-              "location": "tests\\features\\step-definitions\\gameplay.js:63"
+              "location": "tests\\features\\step-definitions\\gameplay.js:61"
             },
             "result": {
               "status": "passed",
-              "duration": 1152550498
+              "duration": 1138414300
             }
           },
           {
@@ -115,11 +115,11 @@
             "line": 13,
             "name": "I should see the game over text \"You health has deteriorated too much - you feel almost dead. Find a caffeine-detox clinic?\"",
             "match": {
-              "location": "tests\\features\\step-definitions\\gameplay.js:67"
+              "location": "tests\\features\\step-definitions\\gameplay.js:65"
             },
             "result": {
               "status": "passed",
-              "duration": 1022979899
+              "duration": 1025566700
             }
           },
           {
@@ -127,7 +127,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 38321499
+              "duration": 58384499
             }
           }
         ],
@@ -157,7 +157,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 682986100
+              "duration": 3647258799
             }
           },
           {
@@ -170,7 +170,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1430313800
+              "duration": 1414724800
             }
           },
           {
@@ -183,7 +183,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1052014900
+              "duration": 1041085499
             }
           },
           {
@@ -196,7 +196,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2017841300
+              "duration": 1326457699
             }
           },
           {
@@ -209,7 +209,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1023712098
+              "duration": 1029628000
             }
           },
           {
@@ -217,7 +217,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 41893099
+              "duration": 70632600
             }
           }
         ],

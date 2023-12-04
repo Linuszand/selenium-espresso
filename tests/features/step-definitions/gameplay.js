@@ -3,8 +3,6 @@ const { By, until } = require('selenium-webdriver');
 const { expect } = require('chai');
 const { waitForDescription, clickElement, textConvert, clickWaitSeven } = require('./testFunctions');
 
-let url = 'http://127.0.0.1:5500/index.html';
-
 Given('That I am at {string}', async function (url)  {
   await this.driver.get(url);
 });

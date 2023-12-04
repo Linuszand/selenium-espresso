@@ -7,7 +7,8 @@
     "test-only": "cucumber-js tests/features --require tests/features/support --require tests/features/step-definitions --world-parameters \"{\\\"browserName\\\":\\\"chrome\\\"}\" --format json:tests/results/chrome.json",
     "test-report": "node ./generateReport",
     "open-test-report": "start tests/results/chrome.html",
-    "test": "cucumber-js tests/features --require tests/features/support --require tests/features/step-definitions --world-parameters \"{\\\"browserName\\\":\\\"chrome\\\"}\" --format json:tests/results/chrome.json && node ./generateReport && start tests/results/chrome.html"
+    "test": "cucumber-js tests/features --require tests/features/support --require tests/features/step-definitions --world-parameters \"{\\\"browserName\\\":\\\"chrome\\\"}\" --format json:tests/results/chrome.json && node ./generateReport && start tests/results/chrome.html",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +18,7 @@
     "chai": "^4.3.10",
     "chromedriver": "^119.0.1",
     "cucumber-html-reporter": "^6.0.0",
+    "express": "^4.18.2",
     "open": "^9.1.0",
     "selenium-webdriver": "^4.15.0"
   },

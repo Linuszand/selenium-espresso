@@ -4,8 +4,9 @@ const { expect } = require('chai');
 
 async function textConvert(driver, element, text) {
   element = await driver.findElement(By.css(element));
-  let textConvert = await element.getText();
-  expect(textConvert).to.equal(text)
+  await driver.wait(until.elementIsVisible(element), 5000);
+  let convertText = await element.getText();
+  expect(convertText).to.equal(text)
 }
 
 async function clickWaitSeven(driver) {
@@ -19,7 +20,7 @@ async function clickWaitSeven(driver) {
 }
 
 async function clickElement(driver, element) {
-  let xpath = "//menu[@class='choices']//ul/li[text()='" + element + "']";
+  let xpath = "//ul/li[text()='" + element + "']";
   element = await driver.findElement(
     By.xpath(xpath)
   );
@@ -37,7 +38,7 @@ async function waitForDescription(driver, text) {
     descriptionText = await description.getText();
 
     wait = await driver.findElement(
-      By.xpath("//menu[@class='choices']//ul/li[text()='Wait']")
+      By.xpath("//ul/li[text()='Wait']")
     );
     await driver.wait(until.elementIsVisible(wait), 5000);
     await wait.click();
