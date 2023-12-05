@@ -1,5 +1,4 @@
-const { Given, When, Then } = require('@cucumber/cucumber');
-const { By, until} = require('selenium-webdriver');
+const { By, until } = require('selenium-webdriver');
 const { expect } = require('chai');
 
 async function textConvert(driver, element, text) {
@@ -10,13 +9,11 @@ async function textConvert(driver, element, text) {
 }
 
 async function clickWaitSeven(driver) {
-  await clickElement(driver, 'Wait');
-  await clickElement(driver, 'Wait');
-  await clickElement(driver, 'Wait');
-  await clickElement(driver, 'Wait');
-  await clickElement(driver, 'Wait');
-  await clickElement(driver, 'Wait');
-  await clickElement(driver, 'Wait');
+  let clicks = 0;
+  while (clicks < 7) {
+    clicks++;
+    await clickElement(driver, 'Wait');
+  }
 }
 
 async function clickElement(driver, element) {
@@ -47,4 +44,4 @@ async function waitForDescription(driver, text) {
   expect(descriptionText).to.equal(text);
 }
 
-module.exports = { waitForDescription, clickElement, textConvert, clickWaitSeven};
+module.exports = { waitForDescription, clickElement, textConvert, clickWaitSeven };

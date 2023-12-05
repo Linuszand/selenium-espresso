@@ -1,6 +1,4 @@
 const { Given, When, Then } = require('@cucumber/cucumber');
-const { By, until, Key } = require('selenium-webdriver');
-const { expect } = require('chai');
 const { waitForDescription, clickElement, textConvert, clickWaitSeven } = require('./testFunctions');
 
 Given('that I am at {string}', async function (url)  {
