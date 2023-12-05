@@ -11,8 +11,3 @@ Feature: Gameplay functionality
   Scenario: Lose the game
     When I wait enough times to die
     Then I should see the game over text "You health has deteriorated too much - you feel almost dead. Find a caffeine-detox clinic?"
-
-
-
-
-
